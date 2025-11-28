@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Application</string>
+
+    <!-- Main Activity -->
+    <string name="main_title">My Application</string>
+    <string name="chatbot_title">Chatbot</string>
+    <string name="chatbot_description">Chat with AI Assistant</string>
+    <string name="calendar_title">Calendar</string>
+    <string name="calendar_description">View and Manage Dates</string>
+
+    <!-- Chatbot Activity -->
+    <string name="chatbot_header">AI Chatbot</string>
+    <string name="chatbot_subtitle">Ask me anything!</string>
+    <string name="message_hint">Type a message...</string>
+    <string name="send_button">Send message</string>
+    <string name="empty_message_error">Please enter a message</string>
+    <string name="welcome_message">Hello! I\'m your assistant. How can I help you today?</string>
+
+    <!-- Calendar Activity -->
+    <string name="calendar_header">Calendar</string>
+    <string name="calendar_subtitle">Tap dates to mark them</string>
+    <string name="calendar_instructions">Tap dates to mark them:\n1 tap = Red | 2 taps = Green | 3 taps = Blue | 4 taps = Reset</string>
+    <string name="select_date_prompt">Select a date to see details</string>
+    <string name="selected_date_format">Selected: %1$s\nStatus: %2$s</string>
+
+    <!-- Status Labels -->
+    <string name="status_important">Red (Important)</string>
+    <string name="status_completed">Green (Completed)</string>
+    <string name="status_pending">Blue (Pending)</string>
+    <string name="status_unmarked">Unmarked</string>
+</resources>
