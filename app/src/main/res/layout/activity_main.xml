@@ -11,7 +11,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="My Application"
+        android:text="@string/main_title"
         android:textSize="32sp"
         android:textStyle="bold"
         android:textColor="#333333"
@@ -39,14 +39,14 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="💬"
+                android:text="@string/chatbot_emoji"
                 android:textSize="48sp"
                 android:layout_marginBottom="8dp"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Chatbot"
+                android:text="@string/chatbot_title"
                 android:textSize="24sp"
                 android:textStyle="bold"
                 android:textColor="#FFFFFF"/>
@@ -54,7 +54,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Chat with AI Assistant"
+                android:text="@string/chatbot_description"
                 android:textSize="14sp"
                 android:textColor="#E3F2FD"
                 android:layout_marginTop="4dp"/>
@@ -82,14 +82,14 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="📅"
+                android:text="@string/calendar_emoji"
                 android:textSize="48sp"
                 android:layout_marginBottom="8dp"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Calendar"
+                android:text="@string/calendar_title"
                 android:textSize="24sp"
                 android:textStyle="bold"
                 android:textColor="#FFFFFF"/>
@@ -97,7 +97,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="View and Manage Dates"
+                android:text="@string/calendar_description"
                 android:textSize="14sp"
                 android:textColor="#E8F5E9"
                 android:layout_marginTop="4dp"/>

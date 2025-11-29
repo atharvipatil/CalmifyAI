@@ -62,13 +62,13 @@ public class CalendarActivity extends AppCompatActivity {
         String status;
         switch (clickCount) {
             case 1:
-                status = "🔴 Red (Important)";
+                status = "🔴 Red (Extreme Stress)";
                 break;
             case 2:
-                status = "🟢 Green (Completed)";
+                status = "🟢 Green (Mild Stress)";
                 break;
             case 3:
-                status = "🔵 Blue (Pending)";
+                status = "🔵 Blue (No Stress)";
                 break;
             default:
                 status = "⚪ Unmarked";
